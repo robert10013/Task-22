@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 
 # Setup WebDriver path and options
-paths = r"C:\Users\Ranga\OneDrive\Desktop\chromedriver.exe"
+paths = r"C:\Users\Robee\OneDrive\Desktop\chromedriver.exe"
 os.environ["PATH"] += os.pathsep + os.path.dirname(paths)
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
